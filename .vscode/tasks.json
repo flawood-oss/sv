@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++ build project",
+            "command": "g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++20",
+                "-I", "${workspaceFolder}/include",
+                "${workspaceFolder}/src/models/*.cpp",
+                "${workspaceFolder}/src/controllers/*.cpp",
+                "${workspaceFolder}/src/views/*.cpp",
+                "${workspaceFolder}/main.cpp",
+                "-o",
+                "${workspaceFolder}/UniversityManagement.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Biên dịch toàn bộ dự án"
+        }
+    ]
+}
