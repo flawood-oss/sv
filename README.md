@@ -1,6 +1,6 @@
 # University Human Resources Management System (C++ OOP)
 
-Dự án cuối kỳ môn Lập trình hướng đối tượng (OOP) - Chuẩn chuyên nghiệp.
+Dự án cuối kỳ môn Lập trình hướng đối tượng (OOP)
 
 ## 🌟 Tính năng nổi bật
 - **Mô hình MVC**: Tách biệt hoàn toàn Logic (Model), Giao diện (View) và Điều khiển (Controller).
@@ -14,12 +14,5 @@ Dự án cuối kỳ môn Lập trình hướng đối tượng (OOP) - Chuẩn 
 - `src/`: Chứa các file thực thi (.cpp)
 - `main.cpp`: Entry point của ứng dụng.
 
-## 🚀 Cách chạy dự án trên VS Code
-1. Cài đặt extension **C/C++** của Microsoft.
-2. Mở thư mục dự án.
-3. Nhấn `Ctrl+Shift+B` để build.
-4. Chạy file `UniversityManagement` được tạo ra.
 
-## 📝 Tác giả
-- Sinh viên: [Tên của bạn]
-- Lớp: [Lớp của bạn]
+
